@@ -14,7 +14,8 @@ One of the earliest approaches to maze routing dates back to graph theory techni
 Despite significant advancements, the maze routing problem remains a challenging puzzle with ongoing research efforts. In this paper, we aim to compare three popular maze routing algorithms, namely Lee, A*, and Dijkstra, based on space and time complexity. This paper focuses on mazes with orders of thousands. Due to this high order, the complexity of the maze is significant, and the results can be used to determine the realistic time taken to route a real-world problem.
 
 ## Implementation
-
+- [maze_create.py](https://github.com/Snehil112/Maze-routing-algorithms/blob/main/maze_create.py)
+- [maze_solver.py](https://github.com/Snehil112/Maze-routing-algorithms/blob/main/maze_solver.py)
 
 ## How to clone the repository?
 ```bash
