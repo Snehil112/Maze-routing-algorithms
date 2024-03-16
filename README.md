@@ -9,7 +9,7 @@ In VLSI design [4], routing is considered one of the most time-consuming steps. 
 
 In [5], C.Y. Lee defined the maze routing problem and explained it as a collection of grids, which are either obstacles or passages to traverse. He developed an algorithm that effectively starts from the source and traverses all possible paths in parallel. It creates a matrix structure where the shortest distance from the source is defined in the grid. This matrix, as shown in Figure 1, is expanded until the algorithm finds the target while avoiding all obstacles in the path.
 
-![Lee's algorithm matrix expansion](/Maze-routing-algorithms/figure1.png)
+![Image](https://github.com/Snehil112/Maze-routing-algorithms/blob/main/figure1.png)
 
 One of the earliest approaches to maze routing dates back to graph theory techniques, where the maze is modeled as a graph with nodes representing intersections and edges representing pathways. Classic algorithms like Dijkstra's algorithm and A* search algorithm have been adapted to find the shortest path through the maze by exploring the graph's nodes and edges while considering the obstacles. 
 
